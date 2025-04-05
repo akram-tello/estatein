@@ -6,6 +6,8 @@ npm-debug.log
 config.php
 vendor
 
+.DS_Store
+
 # Core
 #
 # Note: if you want to stage/commit WP core files
