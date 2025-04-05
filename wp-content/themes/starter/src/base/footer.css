@@ -1,0 +1,9 @@
+.footer-content {
+    @apply flex justify-between;
+}
+
+.footer-logo {
+    img {
+        @apply max-w-200px;
+    }
+}

@@ -1,0 +1,17 @@
+.site-header {
+    @apply sticky top-0 left-0 w-full bg-white z-[999];
+}
+
+/* .admin-bar .site-header {
+    @apply top-[42px] adminMobile:top-[32px];
+} */
+
+.header-main {
+    @apply flex flex-wrap justify-between items-center py-20px;
+}
+
+.header-logo {
+    img {
+        @apply max-w-100px md:max-w-200px;
+    }
+}

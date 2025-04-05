@@ -1,0 +1,11 @@
+.btn {
+    @apply inline-block py-10px px-30px transition;
+
+    &--primary {
+        @apply bg-black text-white border border-black; 
+
+        &:hover {
+            @apply bg-white text-black;
+        }
+    }
+}

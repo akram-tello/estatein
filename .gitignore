@@ -1,6 +1,11 @@
 # Wordpress - ignore core, configuration, examples, uploads and logs.
 # https://github.com/github/gitignore/blob/main/WordPress.gitignore
 
+node_modules
+npm-debug.log
+config.php
+vendor
+
 # Core
 #
 # Note: if you want to stage/commit WP core files
@@ -10,6 +15,20 @@
 /wp-content/languages
 /wp-content/plugins/index.php
 /wp-content/themes/index.php
+/wp-content/backup-db
+/wp-content/backups
+/wp-content/updraft
+/wp-content/mu-plugins-old
+/wp-content/wflogs
+/wp-content/docket-cache-data
+/wp-content/advanced-cache-backup.php
+/wp-content/object-cache-backup.php
+wp-cache-config.php
+/wp-content/plugins/
+/wp-content/mu-plugins
+/wp-content/upgrade/
+/wp-content/uploads/
+/wp-content/cache/
 /wp-includes/
 /index.php
 /license.txt
@@ -31,6 +50,14 @@ wp-config.php
 
 # Log files
 *.log
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
 
 # htaccess
 /.htaccess
