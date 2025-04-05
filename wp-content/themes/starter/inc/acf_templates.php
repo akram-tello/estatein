@@ -1,6 +1,6 @@
 <?php
 
-function starter_theme_block_callback( $block ) {
+function estatein_block_callback( $block ) {
     
     // convert name ("acf/testimonial") into path friendly slug ("testimonial")
     $slug = str_replace('acf/', '', $block['name']);

@@ -34,8 +34,8 @@ if( function_exists('acf_add_options_page') ) {
 
 function custom_block_category( $categories, $post ) {
     $custom_block = array(
-        'slug'  => 'starter_theme',
-        'title' => __( 'Starter Blocks', 'starter_theme' ),
+        'slug'  => 'estatein',
+        'title' => __( 'Starter Blocks', 'estatein' ),
     );
 
     $categories_sorted = array();
